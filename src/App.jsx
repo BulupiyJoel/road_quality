@@ -18,6 +18,9 @@ function App() {
 
         {/* Route pour la page de visualisation des données */}
         <Route path="/data" element={<DataPage />} />
+
+        {/* Authentification avec Firebase et Recuperation de Token*/}
+        <Route path="/login" element={<FirebaseAuthPage />} />
       </Routes>
     </Router>
   );
