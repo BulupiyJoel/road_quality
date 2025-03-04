@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server : {
     proxy : {
-      "/api": "http://localhost/road_quality/api/getData.php"
+      "/api": "http://localhost/road_quality"
     }
   }
 })

@@ -1,1 +1,4 @@
-GET http://localhost
+GET http://localhost/road_quality/api/getRoute.php
+
+
+# GET http://localhost/road_quality/api/getCoords.php

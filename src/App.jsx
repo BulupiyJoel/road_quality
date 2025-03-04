@@ -5,6 +5,8 @@ import HomePage from "./components/Home";
 // Importe le composant pour la page Carte et Visualisation des Données
 import MapPage from "./components/MapPage"; // Remplace par ton composant de carte
 import DataPage from "./components/DataPage"; // Remplace par ton composant de visualisation des données
+import FirebaseAuthPage from "./components/FirebaseLogin";
+import InitSystem from "./components/InitializeSystemPage";
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
 
         {/* Authentification avec Firebase et Recuperation de Token*/}
         <Route path="/login" element={<FirebaseAuthPage />} />
+
+        {/* Init System Page*/}
+        <Route path="/init-sys" element={<InitSystem/>}/>
       </Routes>
     </Router>
   );

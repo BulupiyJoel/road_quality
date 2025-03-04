@@ -5,14 +5,14 @@ import { initializeApp } from 'firebase/app';
 
 // Remplacez ces valeurs par celles de votre projet Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyA5vaoYNz7IhD_Yl2i1Yjl0ISi3KEWOU50",
-    authDomain: "route-1af57.firebaseapp.com",
-    projectId: "route-1af57",
-    storageBucket: "route-1af57.firebasestorage.app",
-    messagingSenderId: "174430938900",
-    appId: "1:174430938900:web:005df3b7f2f6d28435c401",
-    measurementId: "G-RHY9PTN18H"
-  };
+  apiKey: "AIzaSyA5vaoYNz7IhD_Yl2i1Yjl0ISi3KEWOU50",
+  authDomain: "route-1af57.firebaseapp.com",
+  projectId: "route-1af57",
+  storageBucket: "route-1af57.firebasestorage.app",
+  messagingSenderId: "174430938900",
+  appId: "1:174430938900:web:005df3b7f2f6d28435c401",
+  measurementId: "G-RHY9PTN18H"
+};
 
 // Initialisation de Firebase
 const app = initializeApp(firebaseConfig);
